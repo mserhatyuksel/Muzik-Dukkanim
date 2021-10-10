@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Ephesis&family=Festive&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #ffe0ad;
+}
+
+/* Navbar Syle Start */
+
+.navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+
+/* Listenin son elemanını seçer */
+
+.navbar li:last-child {
+  margin-right: 60px;
+}
+
+.navbar--item {
+  padding: 10px;
+}
+
+.navbar--item a {
+  text-decoration: none;
+  color: rebeccapurple;
+  font-weight: 500;
+}
+
+/* Listenin ilk elemanını seçer */
+
+.navbar li:first-child {
+  margin-right: auto;
+}
+
+.navbar li:first-child a {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Festive', cursive;
+}
+
+/* #Navbar Syle End */
+
+/* Homepage Main Style Start */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-text {
+  font-family: 'Ephesis', cursive;
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #242424;
+}
+
+.p-text {
+  align-self: flex-start;
+  margin-left: 60px;
+}
+
+/* Products Style Start */
+
+.products {
+  display: flex;
+}
+
+.product {
+  flex: 1;
+  background: #FFFFFF;
+  margin: 30px;
+  padding: 20px;
+  border: solid 3px rebeccapurple;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product .product-img {
+  width: 200px;
+}
+
+.product .product-title, .product .product-desc, .price {
+  margin-top: 20px;
+}
+
+.product .product-title, .price {
+  color: rebeccapurple;
+}
+
+.price {
+  font-weight: bolder;
+}
+
+/* #Products Style End */
+.source{
+  align-self: flex-end;
+  margin-right: 40px;
+}
+/* #Homepage Main Style End */
